@@ -1,2 +1,46 @@
 @charset "UTF-8";
 
+/* Para pequenas telas (até 600px) e Celular (até 768px), já foi criada a Media Query.
+Agora folta criar Media Query de Tablet até Notebook (768px até 1200px) até PC Grande e SmartTV (1200px até 1400px). */
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+    body {
+        background-image: linear-gradient(to top, #F4F1DE, #E76F51);
+    }
+
+    section#login {
+        width: 90vw;       
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+    @media screen and (min-width: 1200px) {
+
+        body {
+        background-image: linear-gradient(to top, #F4F1DE, #E76F51);
+    }
+    
+    section#login {
+        width: 1200px;       
+    }
+section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+section#login > div#formulario {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
