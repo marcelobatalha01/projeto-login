@@ -36,6 +36,7 @@ Modo Escuro (Dark Mode): Se o site contar com uma versão escura, substitua o fu
     box-sizing: border-box; /* A borda fará parte do cálculo de largura */
 }
 
+
 /* Configuração global e corpo do texto (Inter) */
 
 body, html {
@@ -68,7 +69,6 @@ section#login {
     
     transition: width 0.3s, heght 0.3s;
     transition-timing-function: ease;
-    
 }
 
 section#login > div#imagem {
@@ -77,13 +77,20 @@ section#login > div#imagem {
     background-size: cover;
     height: 200px;
     background-position: left center;
-
 }
 
-sectio#login > div#formulario {
+section#login > div#formulario {
     display: block;
     padding: 10px;
+}
 
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
 
 

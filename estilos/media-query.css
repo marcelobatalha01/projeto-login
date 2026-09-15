@@ -21,6 +21,15 @@ Agora folta criar Media Query de Tablet até Notebook (768px até 1200px) até P
         float: right;
         width: 50%;
         height: 100%;
+        
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
 
@@ -29,18 +38,27 @@ Agora folta criar Media Query de Tablet até Notebook (768px até 1200px) até P
         body {
         background-image: linear-gradient(to top, #F4F1DE, #E76F51);
     }
-    
+
     section#login {
         width: 1200px;       
     }
-section#login > div#imagem {
-        float: left;
-        width: 50%;
-        height: 100%;
-    }
-section#login > div#formulario {
+    section#login > div#imagem {
         float: right;
         width: 50%;
         height: 100%;
     }
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario > h1 {
+        font-size: 3em;
+    }
+
+    div#formulario > p {
+        font-size: 1.6em;
+    }
+
 }
