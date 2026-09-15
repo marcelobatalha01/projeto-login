@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* 
+
+Paleta de Cores: Sol, Mar & Energia
+
+- Azul Oceano (Primária - #0077B6)
+Cabeçalhos, menus principais, bordas e elementos de destaque estrutural.
+Sensação: Transmite confiança, estabilidade e remete diretamente ao mar e ao céu aberto.
+
+- Laranja Solar (Destaque/CTA - #FF6B35)
+Botões de ação principal (como "Agende sua quadra", "Inscreva-se" ou "Compre agora") e ícones interativos.
+É uma cor vibrante que atrai o olhar rapidamente, associada à energia do sol, vitalidade e movimento.
+
+- Areia Quente (Fundo Neutro Suave - #F4F1DE)
+Fundo de seções secundárias ou cartões (cards) de conteúdo.
+Traz um toque acolhedor e orgânico, simulando a textura da areia da praia sem cansar a vista dos usuários.
+
+- Coral Vibrante (Secundária - #E76F51)
+Detalhes gráficos, selos de ofertas, badges de categorias ou destaques secundários.
+Modernidade e jovialidade, combinando perfeitamente com o estilo de vida praiano.
+
+- Azul Meia-Noite (Texto/Contraste - #1D3557)
+Textos corridos, títulos e rodapés.
+Garante máxima legibilidade e contraste profissional sobre fundos claros, sendo mais suave do que o preto puro.
+
+Dicas de Aplicação no Design
+Regra 60-30-10: Utilize a cor Areia Quente ou branco puro em 60% do site (fundo e respiro), o Azul Oceano em 30% (estruturas e textos) e reserve o Laranja Solar para os 10% restantes (apenas em botões e chamadas para ação cruciais).
+
+Modo Escuro (Dark Mode): Se o site contar com uma versão escura, substitua o fundo claro pelo Azul Meia-Noite e mantenha o Laranja Solar e o Coral brilhantes para criar um contraste esportivo e tecnológico.
+
+*/
