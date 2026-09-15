@@ -30,3 +30,85 @@ Regra 60-30-10: Utilize a cor Areia Quente ou branco puro em 60% do site (fundo 
 Modo Escuro (Dark Mode): Se o site contar com uma versão escura, substitua o fundo claro pelo Azul Meia-Noite e mantenha o Laranja Solar e o Coral brilhantes para criar um contraste esportivo e tecnológico.
 
 */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /* A borda fará parte do cálculo de largura */
+}
+
+/* Configuração global e corpo do texto (Inter) */
+
+body, html {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #1D3557; /* Nosso Azul Meia-Noite para os textos */
+    background-color: #F4F1DE; /* Nosso Areia Quente para o fundo */
+}
+
+main {
+    position: relative; /* O melhor é usar o FLEXBOX */
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: #006da88f;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;      
+    box-shadow: 0px 0px 20px rgba(78, 78, 78, 0.633);  
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #e76f51 url(../imagens/rqquete-e-bolinhas-back.jpg);
+    background-size: cover;
+    height: 200px;
+    background-position: left center;
+
+}
+
+sectio#login > div#formulario {
+    display: block;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Títulos e cabeçalhos (Montserrat) */
+h1, h2, h3, h4, h5, h6, .titulo-destaque {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Use 900 para títulos bem marcantes como o H1 */
+}
+
+/* Exemplo prático para o botão principal com a cor Laranja Solar */
+.btn-cta {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #FF6B35;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
