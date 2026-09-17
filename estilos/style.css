@@ -33,22 +33,21 @@ Modo Escuro (Dark Mode): Se o site contar com uma versão escura, substitua o fu
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box; /* A borda fará parte do cálculo de largura */
+    box-sizing: border-box;
 }
 
 /* Configuração global e corpo do texto (Inter) */
-
 body, html {
     height: 100vh;
     width: 100vw;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: #1D3557; /* Nosso Azul Meia-Noite para os textos */
-    background-color: #F4F1DE; /* Nosso Areia Quente para o fundo */
+    color: #1D3557;
+    background-color: #F4F1DE;
 }
 
 main {
-    position: relative; /* O melhor é usar o FLEXBOX */
+    position: relative;
     height: 100vh;
     width: 100vw;
 }
@@ -59,20 +58,20 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-
-    background-color: #006da88f;
-    width: 250px;
-    height: 500px;
+    background-color: #2498d782;
+    width: 90px;
+    max-width: 250px;
+    height: 520px;
     border-radius: 20px;      
     box-shadow: 0px 0px 20px rgba(78, 78, 78, 0.633);
     
-    transition: width 0.3s, heght 0.3s;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #e76f51 url(../imagens/rqquete-e-bolinhas-back.jpg);
+    background: #e76f51 url(../imagens/raquete-e-bolinhas-back.jpg);
     background-size: cover;
     height: 200px;
     background-position: left center;
@@ -92,13 +91,99 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
+/* --- CAMPOS LOGIN E SENHA - CORRIGIDO --- */
+form > div.login, form > div.senha {
+    background-color: #fcfa86ac;
+    border: 1px solid #f3eab0bd;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 6px 0px;
+    padding: 2px;
+}
+
+/* Apaga as palavras Login e Senha da tela */
+form > div.login label, form > div.senha label {
+    display: none;
+}
+
+form > div.login img, form > div.senha img {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    flex-shrink: 0;
+}
+
+form > div.login input, form > div.senha input {
+    background-color: #e9f2f2;
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+
+form > div.login input:focus, form > div.senha input:focus {
+    background-color: white;
+    outline: none;
+}
+
+/* Botão Entrar */
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #1D3557;
+    color: white;
+    border: 2px solid rgba(56, 56, 56, 0.436);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #70a6f1;
+}
+
+/* Botão Esqueci a senha */
+form > a.botao_entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    color: rgba(255, 255, 26, 0.729);
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: #416494;
+    border: 2px solid rgba(56, 56, 56, 0.436);
+    border-radius: 5px;
+}
+
+form > a.botao_entrar:hover {
+    background-color: #6faafd;
+}
+
+form > a.botao_entrar > img {
+    width: 18px;
+    height: 18px;
+    filter: invert(1) brightness(100%);
+}
+
 /* Títulos e cabeçalhos (Montserrat) */
 h1, h2, h3, h4, h5, h6, .titulo-destaque {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700; /* Use 900 para títulos bem marcantes como o H1 */
+    font-weight: 700;
 }
 
-/* Exemplo prático para o botão principal com a cor Laranja Solar */
+/* Botão principal com a cor Laranja Solar */
 .btn-cta {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;

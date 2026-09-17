@@ -8,7 +8,8 @@ Agora folta criar Media Query de Tablet até Notebook (768px até 1200px) até P
         background-image: linear-gradient(to top, #F4F1DE, #E76F51);
     }
     section#login {
-        width: 90vw;       
+        width: 80vw;
+           
     }
     section#login > div#imagem {
         float: left; /* Quando a tela for de Tabele até Notebook a imagem ficará a esquerda e o formulário a direita */
@@ -36,7 +37,7 @@ Agora folta criar Media Query de Tablet até Notebook (768px até 1200px) até P
         width: 1200px;       
     }
     section#login > div#imagem {
-        float: right; /* Quando a tela for de Notebook para SmartTV a imagem ficará a direita e o formulário a esquerda */
+        float: right; /* Quando a tela for de Notebook para SmartTV a imagem ficará a esquerda e o formulário a direita */
         width: 50%;
         height: 100%;
     }
