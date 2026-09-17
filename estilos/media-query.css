@@ -1,49 +1,42 @@
 @charset "UTF-8";
 
 /* Para pequenas telas (até 600px) e Celular (até 768px), já foi criada a Media Query.
-Agora folta criar Media Query de Tablet até Notebook (768px até 1200px) até PC Grande e SmartTV (1200px até 1400px). */
+Agora folta criar Media Query de Tablet até Notebook (768px até 1200px) até PC, PC Grande e SmartTV (1200px até 1400px). */
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-
     body {
         background-image: linear-gradient(to top, #F4F1DE, #E76F51);
     }
-
     section#login {
         width: 90vw;       
     }
     section#login > div#imagem {
-        float: left;
+        float: left; /* Quando a tela for de Tabele até Notebook a imagem ficará a esquerda e o formulário a direita */
         width: 50%;
         height: 100%;
     }
     section#login > div#formulario {
-        float: right;
+        float: right; /* Quando a tela for de Tabele até Notebook a imagem ficará a esquerda e o formulário a direita */
         width: 50%;
-        height: 100%;
-        
+        height: 100%;        
     }
-
     div#formulario > h1 {
         font-size: 2em;
     }
-
     div#formulario > p {
         font-size: 1.2em;
     }
 }
 
     @media screen and (min-width: 1200px) {
-
-        body {
-        background-image: linear-gradient(to top, #F4F1DE, #E76F51);
+    body {
+    background-image: linear-gradient(to top, #F4F1DE, #E76F51);
     }
-
     section#login {
         width: 1200px;       
     }
     section#login > div#imagem {
-        float: right;
+        float: right; /* Quando a tela for de Notebook para SmartTV a imagem ficará a direita e o formulário a esquerda */
         width: 50%;
         height: 100%;
     }
@@ -52,11 +45,9 @@ Agora folta criar Media Query de Tablet até Notebook (768px até 1200px) até P
         width: 50%;
         height: 100%;
     }
-
     div#formulario > h1 {
         font-size: 3em;
     }
-
     div#formulario > p {
         font-size: 1.6em;
     }

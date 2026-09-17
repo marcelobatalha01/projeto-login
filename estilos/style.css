@@ -36,7 +36,6 @@ Modo Escuro (Dark Mode): Se o site contar com uma versão escura, substitua o fu
     box-sizing: border-box; /* A borda fará parte do cálculo de largura */
 }
 
-
 /* Configuração global e corpo do texto (Inter) */
 
 body, html {
@@ -92,19 +91,6 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Títulos e cabeçalhos (Montserrat) */
 h1, h2, h3, h4, h5, h6, .titulo-destaque {
