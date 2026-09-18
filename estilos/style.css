@@ -82,13 +82,12 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
-    padding: 20px;
+    padding: 5px;
 }
 
 div#formulario > h1 {
     text-align: center;
-    margin: 50px;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 div#formulario > p {
