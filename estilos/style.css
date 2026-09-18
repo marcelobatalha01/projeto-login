@@ -58,9 +58,8 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
-
     background-color: #2498d782;
     width: 250px;
     height: 520px;
@@ -69,6 +68,8 @@ section#login {
 
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
+
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -81,17 +82,20 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+    padding: 20px;
 }
 
 div#formulario > h1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin: 50px;
+    margin-bottom: 20px;
 }
 
 div#formulario > p {
-    font-size: 0.8em;
-}
+    font-size: 1em;
+    margin: 20px 0px;
+    text-align: justify;
+} 
 
 /* --- CAMPOS LOGIN E SENHA - CORRIGIDO --- */
 form > div.login, form > div.senha {
@@ -130,7 +134,7 @@ form > div.login input, form > div.senha input {
 }
 
 form > div.login input:focus, form > div.senha input:focus {
-    background-color: rgb(3, 0, 0);
+    background-color: rgb(193, 236, 255);
     outline: none;
 }
 
