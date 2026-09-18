@@ -27,10 +27,26 @@ Regra 60-30-10: Utilize a cor Areia Quente ou branco puro em 60% do site (fundo 
 
 Modo Escuro (Dark Mode): Se o site contar com uma versão escura, substitua o fundo claro pelo Azul Meia-Noite e mantenha o Laranja Solar e o Coral brilhantes para criar um contraste esportivo e tecnológico.
 
+Títulos e cabeçalhos (Montserrat)
+h1, h2, h3, h4, h5, h6, .titulo-destaque {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+Botão principal com a cor Laranja Solar
+.btn-cta {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    background-color: #FF6B35;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 */
 
 @charset "UTF-8";
-
 
 * {
     padding: 0px;
@@ -87,12 +103,12 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 div#formulario > p {
     font-size: 1em;
-    margin: 20px 0px;
+    margin: 15px 0px;
     text-align: justify;
 } 
 
@@ -182,20 +198,3 @@ form > a.botao_entrar > img {
     filter: invert(1) brightness(100%);
 }
 
-/* Títulos e cabeçalhos (Montserrat) */
-h1, h2, h3, h4, h5, h6, .titulo-destaque {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-/* Botão principal com a cor Laranja Solar */
-.btn-cta {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    background-color: #FF6B35;
-    color: #FFFFFF;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    cursor: pointer;
-}
